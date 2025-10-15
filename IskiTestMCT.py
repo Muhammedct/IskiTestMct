@@ -7,13 +7,13 @@ import os
 # Eğer bir ilçedeki tüm mahalleleri takip etmek isterseniz, mahalle listesini boş bırakın: "İlçe Adı": []
 # Mahalle adlarını İSKİ'nin sitesindeki gibi yazmaya özen gösterin.
 TAKIP_EDILEN_BOLGELER = {
-    "SARIYER": []
+    "SARIYER": ["AYAZAĞA"]
 }
 # --- DÜZENLEME SONU ---
 
 # GitHub Actions'tan alacağımız gizli bilgiler
-TELEGRAM_BOT_TOKEN = os.environ.get('8009738525:AAFlhuc_25MqbvzqhJOoQ3xu37XpOcBF6MY')
-TELEGRAM_CHAT_ID = os.environ.get('1041245012')
+TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
 ISKI_URL = "https://iski.istanbul/abone-hizmetleri/ariza-kesinti/"
 
